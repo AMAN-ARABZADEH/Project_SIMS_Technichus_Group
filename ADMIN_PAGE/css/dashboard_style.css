@@ -1,0 +1,74 @@
+
+.corp_header {
+    position: fixed; /* relative to its own position */
+    background-color: cadetblue;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 5px solid pink;
+    display: flex;
+    align-items: center;
+}
+
+#admin_btn {
+    margin-left: 150px;
+}
+
+#sign_up {
+    margin-right: 800px;
+    display: inline-block;
+}
+
+#corp_title {
+    font-style: italic;
+    margin-left: 80px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 200%;
+    color: pink;
+}
+
+#corp_title a {
+    text-decoration: none;
+    color: pink;
+}
+#corp_title a:hover { text-decoration: underline; }
+#corp_title a:active { color: lightpink; }
+#corp_title a:visited { color: inherit; }
+
+.dashboard {
+    font-family: "Helvetica Neue", sans-serif;
+    color: #282c34;
+}
+
+.dash_title, .media_players { text-align: center; }
+
+#main_options {
+    margin-top: 100px;
+    color: #282c34;
+    font-size: 100%;
+}
+
+#main_options {
+    display: inline-block;
+    padding: 50px;
+    border: 5px solid black;
+    font-family: "Roboto", sans-serif;
+    font-size: 120%;
+}
+
+.option {
+    background-color: antiquewhite;
+    display: inline-block;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 10%;
+    text-align: center;
+    border: 20px pink;
+}
+
+#log_in {
+    margin-left: 50px;
+}

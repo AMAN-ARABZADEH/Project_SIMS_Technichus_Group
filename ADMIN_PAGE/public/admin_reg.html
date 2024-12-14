@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title> Register Administrator </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/admin_reg_style.css">
+</head>
+<body id="reg_bg">
+<div class="center" id="reg_win">
+    <h1 id="reg_admin_header">Register Administrator</h1>
+
+    <form id="reg_admin_form"
+          action=""
+          method="post"
+          class="form">
+
+        <div id="email_div">
+            <label for="input_email" id="email_label">Email:</label>
+            <input type="email" name="email" id="input_email"
+                   placeholder="Enter email"><br>
+        </div>
+        <div id="reg_admin_pw_div">
+            <label for="input_pw" id="reg_admin_pw_label">Password:</label>
+            <input type="password" name="pw" id="input_pw"
+                   placeholder="Enter password"><br>
+        </div>
+        <div id="first_name_div">
+            <label for="input_first_name" id="first_name_label">First name:</label>
+            <input type="text" name="first_name" id="input_first_name"
+                   placeholder="Enter first name"><br>
+        </div>
+        <div id="last_name_div">
+            <label for="input_last_name" id="last_name_label">Last name:</label>
+            <input type="text" name="last_name" id="input_last_name"
+                   placeholder="Enter last name"><br>
+        </div>
+
+        <button type="submit" id="reg_admin_submit_btn">Submit</button>
+    </form>
+</div>
+
+<script src="../client_side/dashboard.js"></script>
+</body>
+</html>
+

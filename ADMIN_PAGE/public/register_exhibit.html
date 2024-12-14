@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title> Register Exhibit </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/admin_reg_style.css">
+</head>
+<body id="reg_bg">
+<div class="center" id="reg_win">
+    <h1 id="reg_exh_header">Register Exhibit</h1>
+
+    <form id="reg_exh_form"
+          action=""
+          method="post"
+          class="form">
+
+        <div id="exh_name_div">
+            <label for="input_exh_name" id="exh_name_label">Name:</label>
+            <input type="text" name="exh_name" id="input_exh_name"
+                   placeholder="Enter exhibit name"><br>
+        </div>
+        <div id="exh_theme_div">
+            <label for="input_exh_theme" id="exh_theme_label">Theme:</label>
+            <input type="text" name="pw" id="input_exh_theme"
+                   placeholder="Enter exhibit theme"><br>
+        </div>
+        <div id="exh_descr_div">
+            <label for="input_exh_descr" id="exh_descr_label">Exhibit description:</label>
+            <input type="text" name="exh_descr" id="input_exh_descr"
+                   placeholder="Description"><br>
+        </div>
+
+        <button type="submit" id="reg_exh_submit_btn">Submit</button>
+    </form>
+</div>
+
+<script src="../client_side/dashboard.js"></script>
+</body>
+</html>
+

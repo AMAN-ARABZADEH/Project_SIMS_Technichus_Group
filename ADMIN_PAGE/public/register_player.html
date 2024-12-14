@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title> Register Media Player </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/media_player_reg_style.css">
+</head>
+<body id="reg_player_bg">
+<div class="center" id="reg_player_win">
+    <h1 id="reg_player_header">Register Media Player</h1>
+
+    <form id="reg_player_form"
+          action=""
+          method="post"
+          class="form">
+
+        <div id="player_name_div">
+            <label for="input_player_name" id="player_name_label">Name:</label>
+            <input type="text" name="player_name" id="input_player_name"
+                   placeholder="Enter media player name"><br>
+        </div>
+        <div id="player_station_div">
+            <label for="input_player_station" id="player_station_label">Exhibit number:</label>
+            <input type="number" name="player_station" id="input_player_station"
+                   placeholder="Enter exhibit number"><br>
+        </div>
+        <div id="player_resolution_div">
+            <label for="input_player_resolution" id="player_resolution_label">Resolution:</label>
+            <input type="text" name="player_resolution" id="input_player_resolution"
+                   placeholder="Enter resolution"><br>
+        </div>
+
+        <button type="submit" id="reg_player_submit_btn">Submit</button>
+    </form>
+</div>
+
+<script src="../client_side/dashboard.js"></script>
+</body>
+</html>

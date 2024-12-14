@@ -1,0 +1,141 @@
+
+#create_ad_bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    image-rendering: crisp-edges;
+    height: 50%;
+    width: 50%;
+}
+
+#header {
+    font-family: "Bookman Old Style", serif;
+    font-style: italic;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: black;
+    left: 50%;
+    margin-top: 65px;
+    margin-left: 45px;
+    font-size: xx-large;
+}
+
+#create_ad_form {
+    font-family: "Bookman Old Style", serif;
+    font-size: large;
+    margin-top: 186px;
+    margin-left: 48px;
+}
+
+#create_ad_win {
+    height: 510px;
+    width: 600px;
+    opacity: 90%;
+}
+
+#create_ad_header {
+    font-family: "Bookman Old Style", serif;
+    font-weight: lighter;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: black;
+    left: 50%;
+    margin-top: 130px;
+    margin-left: 5px;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.15);
+    border-radius: 25px;
+}
+
+form { margin-left: 30px; }
+p { display: table-row; }
+
+label {
+    float: left;
+}
+
+.center #create_ad_form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-right: 20px;
+}
+
+#go_to_index {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 50px;
+    font-size: 16px;
+}
+
+#ad_submit_btn {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 190px;
+    font-size: 16px;
+}
+
+textarea {
+    position: absolute;
+    resize: none;
+}
+
+.form input {
+    height: 25px;
+}
+
+#ad_title_div { margin-top: 30px; }
+#ad_title_label { margin-top: 4px; }
+#input_ad_title { margin-left: 53px; }
+
+#instrument_price_div { margin-top: 30px; }
+#instrument_price_label { margin-top: 4px; }
+#input_instrument_price { margin-left: 150px }
+
+#instrument_brand_div { margin-top: 30px; }
+#instrument_brand_label { margin-top: 4px; }
+#input_instrument_brand { margin-left: 41px }
+
+#description_div { margin-top: 30px; }
+#description_label { margin-top: 4px; }
+#input_description { margin-left: 23px }
+
+#success {
+    position: absolute;
+    color: green;
+    font-family: Monospaced, serif;
+    font-weight: bold;
+    white-space: nowrap;
+    margin-top: -30px;
+    margin-left: 120px;
+}
+
+#input_instrument_brand-error,
+#input_instrument_price-error,
+#input_ad_title-error {
+    color: crimson;
+    font-family: Monospaced, serif;
+    font-size: smaller;
+    white-space: nowrap;
+    margin-top: -55px;
+    margin-left: 200px;
+}
+
+#input_description-error {
+    position: absolute;
+    color: crimson;
+    font-family: Monospaced, serif;
+    font-size: smaller;
+    white-space: nowrap;
+    margin-left: 100px;
+    margin-top: -22px;
+}
